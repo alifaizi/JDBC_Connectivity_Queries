@@ -20,11 +20,11 @@ public class SQLConnection {
 		
 		// Insert Query
 		
-//		String insertQuery = "INSERT INTO xai.student (id, firstName, lastName, age) VALUES ('6', 'Mike', 'JOnes', '32')"; 
+		String insertQuery = "INSERT INTO xai.student (id, firstName, lastName, age) VALUES ('6', 'Mike', 'JOnes', '32')"; 
 //		
-//		myStatement.execute(insertQuery);
+		myStatement.execute(insertQuery);
 //		
-//		System.out.println("Records added into the database");
+		System.out.println("Records added into the database");
 		
 		
 		// Update Query
@@ -43,20 +43,20 @@ public class SQLConnection {
 		
 		// Select Query
 		
-		String selectQuery = "select id, firstName, lastName, age from student";
-		
-		ResultSet myResult = myStatement.executeQuery(selectQuery);
-		
-		while (myResult.next()) {
-			
-			int myId = myResult.getInt("id");
-			String myFirstName = myResult.getString("firstName");
-			String myLastName = myResult.getString("lastName");
-			String myAge = myResult.getString("age");
-			
-			System.out.println("Id: " + myId + " First Name: " + myFirstName + " Last Name: " + myLastName + " Age: " + myAge);	
-			
-		}
+//		String selectQuery = "select id, firstName, lastName, age from student";
+//		
+//		ResultSet myResult = myStatement.executeQuery(selectQuery);
+//		
+//		while (myResult.next()) {
+//			
+//			int myId = myResult.getInt("id");
+//			String myFirstName = myResult.getString("firstName");
+//			String myLastName = myResult.getString("lastName");
+//			String myAge = myResult.getString("age");
+//			
+//			System.out.println("Id: " + myId + " First Name: " + myFirstName + " Last Name: " + myLastName + " Age: " + myAge);	
+//			
+//		}
 		
 		
 	}
