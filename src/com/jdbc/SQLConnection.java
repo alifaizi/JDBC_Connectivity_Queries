@@ -40,10 +40,8 @@ public class SQLConnection {
 			String myLastName = myResult.getString("lastName");
 			String myAge = myResult.getString("age");
 			
-			System.out.println("Id: " + myId);
-//			System.out.println("First Name: " + myFirstName);
-//			System.out.println("Last Name: " + myLastName);
-//			System.out.println("Age: " + myAge);
+			System.out.println("Id: " + myId + "First Name: " + myFirstName + "Last Name: " + myLastName + "Age: " + myAge);
+
 				
 			
 		}
