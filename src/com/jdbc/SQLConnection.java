@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class SQLConnection {
 	
-	// This class holds the connectivity with the mySQL database and complete CRUD queries
+	// This class holds the connectivity with the mySQL database and complete CRUD queries.
 
 	public static void main(String[] args) throws SQLException{
 		
