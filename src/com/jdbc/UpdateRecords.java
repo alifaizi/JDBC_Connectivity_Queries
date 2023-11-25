@@ -19,7 +19,7 @@ public class UpdateRecords {
 		
 		myStatement.execute(updateRecord);
 		
-		System.out.println("Recrod has been updated successfully!");
+		System.out.println("The Recrod with ID number 2 has been updated successfully!");
 		
 		// Close Connection
 		

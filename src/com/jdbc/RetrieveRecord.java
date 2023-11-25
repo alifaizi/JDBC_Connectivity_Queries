@@ -21,6 +21,8 @@ public class RetrieveRecord {
 		
 		ResultSet result = myStatement.executeQuery(retriveRecord);
 		
+		System.out.println("Records has been retrieved successfully: \n");
+		
 		while (result.next()) {
 			int id = result.getInt("id");
 			String firstName = result.getString("firstName");
@@ -30,6 +32,8 @@ public class RetrieveRecord {
 			System.out.println("Id: " + id + " " + "First Name: " + firstName + " " + "Last Name: " + lastName + " " + "Age: " + age );
 			
 		}
+		
+		
 		
 		// Close the resources
 		

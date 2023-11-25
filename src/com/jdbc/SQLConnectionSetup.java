@@ -18,8 +18,7 @@ public class SQLConnectionSetup {
 		// Statement is for executing our query into the database
 		Statement myStatement = myConnection.createStatement();
 		
-		// Insert Query
-		
+		// Sample Insert Query
 		String insertQuery = "INSERT INTO xai.student (id, firstName, lastName, age) VALUES ('6', 'Mike', 'JOnes', '32')"; 
 
 		myStatement.execute(insertQuery);

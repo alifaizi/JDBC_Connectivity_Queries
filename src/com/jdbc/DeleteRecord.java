@@ -19,7 +19,7 @@ public class DeleteRecord {
 
 		myStatement.execute(deletRecord);
 
-		System.out.println("Records has been deleted successfully!");
+		System.out.println("Record has been deleted successfully!");
 		
 		// Close Connection
 

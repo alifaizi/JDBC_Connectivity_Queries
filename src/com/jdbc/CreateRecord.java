@@ -19,6 +19,8 @@ public class CreateRecord {
 		
 		myStatement.execute(insertRecord);
 		
+		System.out.println("Record has been added successfully!");
+		
 	}
 
 }
